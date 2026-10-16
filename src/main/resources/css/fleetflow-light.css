@@ -1,0 +1,39 @@
+/* =====================================================================
+   FleetFlow light theme – loaded after fleetflow.css and overriding its design tokens.
+   ===================================================================== */
+.root {
+    -ff-bg: #f2f5fb;
+    -ff-sidebar: #ffffff;
+    -ff-panel: #ffffff;
+    -ff-panel-alt: #eaf0fb;
+    -ff-input: #f6f8fd;
+    -ff-border: #d5ddee;
+    -ff-text: #1c2540;
+    -ff-muted: #5f6c8a;
+    -ff-accent: #2f6bea;
+    -ff-accent-2: #0e9f78;
+    -ff-warn: #c77d0a;
+    -ff-danger: #d6304d;
+    -ff-hover: #dde7fa;
+    -ff-pressed: #cfdcf5;
+    -ff-thumb: #c3cee6;
+    -ff-thumb-hover: #a9b8da;
+    -ff-grid: #e3e9f5;
+    -ff-prompt: #9aa6c2;
+    -ff-row-alt: rgba(20, 40, 90, 0.035);
+    -ff-heading: #111a33;
+
+    -fx-base: #e6ecf7;
+    -fx-background: #f2f5fb;
+    -fx-control-inner-background: #f6f8fd;
+    -fx-accent: #2f6bea;
+    -fx-focus-color: #2f6bea;
+    -fx-background-color: -ff-bg;
+}
+.card { -fx-effect: dropshadow(gaussian, rgba(30, 50, 100, 0.12), 12, 0, 0, 3); }
+.chip-ok { -fx-background-color: rgba(14, 159, 120, 0.14); }
+.button-accent { -fx-background-color: rgba(14, 159, 120, 0.12); -fx-border-color: rgba(14, 159, 120, 0.5); }
+.button-danger { -fx-background-color: rgba(214, 48, 77, 0.10); -fx-border-color: rgba(214, 48, 77, 0.45); }
+.table-row-cell:hover { -fx-background-color: rgba(47, 107, 234, 0.10); }
+.table-row-cell:selected { -fx-background-color: rgba(47, 107, 234, 0.28); }
+.chart-pie { -fx-border-color: -ff-panel; }
